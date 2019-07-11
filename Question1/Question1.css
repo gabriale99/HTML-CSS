@@ -1,0 +1,32 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  height: auto;
+  align-items: center;
+}
+
+.flex-container>div {
+  margin: 0 10px;
+  text-align: start;
+}
+
+article {
+  width: 75%;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: auto;
+    align-items: center;
+  }
+}
